@@ -17,6 +17,10 @@
   margin-left: 3vw;
   height: 7vh;
   margin-top: 1vh;
+
+
+  border-radius:20px;
+
     
 }
 .btn{
@@ -74,6 +78,7 @@
 
 }
 .home-link {
+
   text-decoration: none;
   color: inherit;
   font-weight: normal; 
@@ -81,10 +86,23 @@
 
 .home-link:hover {
   color: #017c6e; 
+
+  text-decoration: none; /* Removes underline */
+  color: inherit;
+  font-weight: normal; /* Ensures the color matches the parent */
+}
+
+.home-link:hover {
+  color: #017c6e; /* Optional: Adds hover effect */
+
 }
 
 
 
+
+
+
+/* for the header*/
 
 .head{
   width: 50vw ;
@@ -105,6 +123,10 @@
     margin-left: 2.5vw;
     background-color: rgb(163, 157, 157);
 }
+
+
+
+/* for the form*/
 
 
 form {
@@ -172,7 +194,11 @@ form button:focus {
   margin: 2vh;
 }
 
+
  
+
+ /* for the footerr*/
+
  .footer{
   height: 30vh;
   width: 100vw;

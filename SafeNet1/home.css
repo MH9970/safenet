@@ -1,0 +1,442 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#parent{
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+#bar{
+  height: 9vh;
+  width: 100vw;
+  display: flex;
+  background: linear-gradient(to right, #48a0f7, #f0f0f0);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo{
+  margin-left: 8vw;
+  height: 7vh;
+  margin-top: 1vh;
+  border-radius:20px;
+    
+}
+.btn{
+  margin-top: 2vh;
+  height: 5vh;
+  width: 9vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  color:  black;
+ background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 1vh;
+
+    
+}
+.btn1{
+  
+    margin-top: 2vh;
+    height: 5vh;
+    width: 7vw;
+    margin-left: 15vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color: black;
+    background: transparent;
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    border-radius: 1vh;
+
+}
+.btn2{
+  margin: 2vh;
+  margin-left: 5vh;
+  height: 5vh;
+  width: 8vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  background: transparent;
+  border-color: white;
+  background: linear-gradient(to right, #f0f0f0, #48a0f7);
+  cursor: pointer;
+  color: black;
+  box-shadow: 1vh;
+}
+.btn:hover{
+  background-color: #699aca  ;
+}
+.btn1:hover{
+  background-color: #699aca  ;
+}
+.btn2:hover{
+  background-color:  #07529d ;
+
+}
+.home-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit;
+  font-weight: normal; /* Ensures the color matches the parent */
+}
+
+.home-link:hover {
+  color: #017c6e; /* Optional: Adds hover effect */
+}
+
+/* Style for dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for dropdown button */
+.dropdown .btn2 {
+  background-color: linear-gradient(to right, #1a64ad, #f0f0f0); 
+  color: black; /* White text */
+  padding: 12px 25px;
+  border: none;
+  border-radius:.5vh;
+  box-shadow: 1vh;
+  cursor: pointer;
+  font-size: 2vh;
+  text-align: center;
+}
+
+/* Dropdown menu container */
+.dropdown .drop-down {
+  display: none; 
+  position: absolute;
+  background-color: #f9f9f9; 
+  min-width: 7vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 0.5vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 999; 
+  margin:  0; 
+  padding:  0;
+  list-style: none; 
+  overflow: hidden; 
+}
+
+/* Dropdown menu items */
+.dropdown .drop-down li {
+  border-bottom: 1px solid #ddd; /* Divider between items */
+}
+
+.dropdown .drop-down li:last-child {
+  border-bottom: none; /* Remove border from last item */
+}
+
+/* Dropdown menu links */
+.dropdown .drop-down li a {
+  display: block;
+  color: #333; /* Dark text */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px;
+  font-size: 2vh;
+  font-weight: bold;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover effect for dropdown links */
+.dropdown .drop-down li a:hover {
+  background-color: #007BFF; /* Blue hover */
+  color: white; /* White text */
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .drop-down {
+  display: block; /* Show menu on hover */
+}
+
+#slideshow {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 85vh;
+    z-index: 1;
+  } 
+  #container {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    animation: slide 9s infinite;
+  }
+  
+  .slide_image {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  
+  .slide_image img {
+    width: 100vw;
+    height: 100vh;
+    padding: 0vh;
+    object-fit: cover;
+    border: none;
+    display: block;
+  }
+  
+  /* Keyframes for Animation */
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(0); }
+    44.44% { transform: translateX(-100%); }
+    77.77% { transform: translateX(-100%); }
+    88.88% { transform: translateX(-200%); }
+    100% { transform: translateX(-200%); }
+  }
+  #largbar{
+     height: 45vh;
+     width: 98vw;
+     display: flex;
+     background-color: antiquewhite ;
+     margin: 1vh;
+     border-radius: 4vh;
+     margin-left: 1vh;
+  }
+  /* for the brown div and text*/
+  .div2{
+    display: flex;
+  }
+  .txtcontainer{
+  
+    width: 40vw;
+    height:25vh ;
+     margin-left: 6vw ;
+     font-size: 3vh; 
+     margin-top: 4vh;
+  }
+  /* for the 3 images of brown div*/
+  .img1{
+    height: 37vh;
+    width: 13vw;
+    margin-top: 7vh; 
+    margin-left: 15vh;
+  }
+  .img2{
+    height: 37vh;
+    width: 13vw;  
+    padding: 1vh;  
+  }
+  .img3{
+    height: 37vh;
+    width: 13vw;
+    margin-top: 7vh;
+  }
+  /* for the 4 images show different angle*/
+  .imgcontainer{
+    width: 33vw;
+    height: 70vh;
+    margin-left: 20vh;
+    margin-top: 5vh;
+  }
+  .img11{
+    height: 30vh;
+    width: 13vw;
+    padding: 1vh;
+   position: relative;
+   background-attachment: fixed;
+   background-size: none;
+   border-radius: 20px;
+    
+  }
+  .img21{
+    height: 25vh;
+    width: 13vw;
+    margin-bottom: 1vh;
+    border-radius: 20px;
+  }
+  .img12{
+    height: 25vh;
+    width: 13vw;
+    padding: 1vh;
+    margin-bottom: 5vh;
+    border-radius: 20px;
+    
+    
+  }
+  .img22{
+    height: 30vh;
+    width: 13vw;   
+    border-radius: 20px;
+  }
+  /* for the text of welcome*/
+  .welcome{
+    width: 40vw;
+    height: 17vh;
+    margin-left: 15vh;
+    margin-top: 15vh;
+    text-align: center;
+   
+  }
+  .txt{
+    font-size: 3vh;
+  }
+  /* for the text of volunteer and foundation number*/
+  .details{
+    display: flex;
+  }
+  .txt1{
+    height: 5vh;
+    width: 3vh;
+    font-size: 3vh;
+    margin-top: 20vh;
+  }
+  .txt2{
+    height: 5vh;
+    width: 3vh;
+    font-size: 3vh;
+    margin-top: 20vh;
+
+ 
+  }
+  .vrt1{
+    display: flex;
+  }
+  .vl {
+    border-left: 6px solid green;
+    height: 10vh;
+    margin-top: 20vh;
+    margin-left: 15vh;
+    width: 0.5vh;
+  }
+  .vl1 {
+    border-left: 6px solid green;
+    height: 10vh;
+    margin-top: 20vh;
+    margin-left: 30vh;
+    width: 0.5vh;
+  }
+  .feature-text{
+    text-align: center;   
+    font-size: 3vh;
+    margin-left: 55vh;
+    color: white;
+    width: 50vw;
+    height: 8vh;
+    background-color: #017c6e;
+    border-radius: 2vh;
+  }
+  .div3{
+    width: 58vw;
+    height: 40vh;
+    background-color:rgb(227, 222, 222);
+    margin: 2vh;
+    margin-left: 22vw;
+    border-radius: 2vh;
+    display: flex;
+  }
+  .innerdiv{
+         height: 37vh;
+          width: 11vw;
+          background-color: whitesmoke;
+          margin-left: 6vh;
+          margin-top: 1vh;
+          border-radius: 2vh;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+         
+  }
+  /*for newsroom div*/
+  .news{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 2vh;
+    margin-top: 2vh;
+  }
+  .crevent{
+    height: 8vh;
+    width: 5vw;
+    border-radius: 2vh;
+    margin-top: 4vh;
+  }
+  .crisis{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 2vh;
+    margin-top: 2vh;
+  }
+  .donation{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 2vh;
+    margin-top: 2vh;
+  }
+  .btnc{
+    margin: 1vh;
+    width: 10vw;
+    height: 4vh;
+    font-size: 3vh;
+    border: none;
+    color:#017c6e;
+    background: transparent;
+    font-weight: bold;
+    border-radius: 2vh;
+    cursor: pointer;
+    
+  }
+  .btnc:hover{
+    background-color: rgb(227, 222, 222);
+  }
+  /* for the white div innerdives text*/
+  .title{
+    font-size: 2.2vh;
+    color: black;
+    margin-top: 1vh;
+  }
+ 
+  /* for the footerr*/
+  .footer{
+    height: 30vh;
+    width: 100vw;
+    background: linear-gradient(to right, #48a0f7, #f0f0f0);
+    display: flex;
+  }
+  .logo2{
+    margin-left: 3vw;
+    height: 9vh;
+    margin-top: 1vh;
+    border-radius: 20px;   
+}
+.small_text{
+  font-size: 2vh;
+  color: black;
+  cursor: pointer;
+  
+}
+ .first-div{
+  margin-top: 2vh;
+  margin-left: 5vh;
+ }
+ .second_div{
+  margin-left: 19vh;
+  margin-top: 2vh;
+ }
+ .third_div{
+  margin-left: 19vh;
+  margin-top: 2vh;
+ }
+ .fourth_div{
+  margin-left: 22vh;
+  margin-top: 2vh;
+ }
+.conimg{
+  display:flex;
+}
+.imgf{
+  width: 4vh;
+  height: 3vh;
+  margin: 1vh;
+  border-radius: 1vh;
+}

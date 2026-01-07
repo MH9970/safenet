@@ -1,0 +1,174 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#parent{
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+#bar{
+  height: 9vh;
+  width: 100vw;
+  display: flex;
+  background: linear-gradient(to right, #48a0f7, #f0f0f0);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo{
+  margin-left: 3vw;
+  height: 7vh;
+  margin-top: 1vh;
+  border-radius:20px;
+    
+}
+.btn{
+  margin-top: 2vh;
+  height: 5vh;
+  width: 9vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  color:  black;
+ background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 1vh;
+
+    
+}
+.btn1{
+  
+    margin-top: 2vh;
+    height: 5vh;
+    width: 7vw;
+    margin-left: 5vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color: black;
+    background: transparent;
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    border-radius: 1vh;
+
+}
+.btn2{
+  margin: 2vh;
+  margin-left: 5vh;
+  height: 5vh;
+  width: 8vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  background: transparent;
+  border-color: white;
+  background: linear-gradient(to right, #f0f0f0, #48a0f7);
+  cursor: pointer;
+  color: black;
+  box-shadow: 1vh;
+}
+.btn:hover{
+  background-color: #699aca  ;
+}
+.btn1:hover{
+  background-color: #699aca  ;
+}
+.btn2:hover{
+  background-color:  #07529d ;
+
+}
+.home-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit;
+  font-weight: normal; /* Ensures the color matches the parent */
+}
+
+.home-link:hover {
+  color: #017c6e; /* Optional: Adds hover effect */
+}
+.txt{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3vh;
+    margin: 2vh;
+    margin-left: 75vh;
+    width: 30vw;
+    color: white;
+    background-color:#017c6e;
+    border-radius: 1vh;
+}
+.container1{
+    width: 75vw;
+    height: 62vh;
+    background:transparent;
+    margin: 3vh;
+    margin-left: 20vw;
+    display: flex;
+}
+.div1{
+    width: 17vw;
+    height: 50vh;
+    margin: 5vh;
+    border-radius: 2vh;
+    background-color: rgb(227, 222, 222);
+}
+.img1{
+    width:15vw ;
+    height: 30vh;
+    margin: 2vh;
+    border-radius: 1.5vh;
+}
+.btnd{
+   margin-left: 3.5vw;
+   height: 6vh;
+   width: 10vw; 
+   background-color: #f0efed;
+   border-radius: 10px;
+   font-size: 2vh;
+   font-weight: bold;
+  
+   border-inline: 0;
+}
+ /* for the footerr*/
+ .footer{
+  height: 30vh;
+  width: 100vw;
+  background: linear-gradient(to right, #48a0f7, #f0f0f0);
+  display: flex;
+}
+.logo2{
+  margin-left: 3vw;
+  height: 9vh;
+  margin-top: 1vh;   
+}
+.small_text{
+font-size: 2vh;
+color: black;
+
+}
+.first-div{
+margin-top: 2vh;
+margin-left: 5vh;
+}
+.second_div{
+margin-left: 19vh;
+margin-top: 2vh;
+}
+.third_div{
+margin-left: 19vh;
+margin-top: 2vh;
+}
+.fourth_div{
+margin-left: 22vh;
+margin-top: 2vh;
+}
+.conimg{
+display:flex;
+}
+.imgf{
+width: 4vh;
+height: 3vh;
+margin: 1vh;
+border-radius: 1vh;
+}

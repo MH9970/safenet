@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  #parent{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+  }
+  #bar{
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    background: linear-gradient(to right, #48a0f7, #f0f0f0);
+  }
+  .logo{
+    margin-left: 3vw;
+    height: 7vh;
+    margin-top: 1vh;
+    border-radius:20px;
+      
+  }
+  .btn{
+    margin-top: 2vh;
+    height: 5vh;
+    width: 9vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color:  black;
+   background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 1vh;
+  
+      
+  }
+  
+  .btncr{
+    margin-top: 2vh;
+    height: 5vh;
+    width: 10vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color:  black;
+   background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 1vh;
+  
+      
+  }
+  .btn1{
+    
+      margin-top: 2vh;
+      height: 5vh;
+      width: 7vw;
+      margin-left: 5vw;
+      font-weight: bold;
+      font-size: 2.2vh;
+      color: black;
+      background: transparent;
+      border: none;
+      background:transparent;
+      cursor: pointer;
+      border-radius: 1vh;
+  
+  }
+  .btn2{
+    margin: 2vh;
+    margin-left: 5vh;
+    height: 5vh;
+    width: 8vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    background: transparent;
+    border-color: white;
+    background: linear-gradient(to right, #f0f0f0, #48a0f7);
+    cursor: pointer;
+    color: black;
+    box-shadow: 1vh;
+  }
+  .btn:hover{
+    background-color: #699aca  ;
+  }
+  .btn1:hover{
+    background-color: #699aca  ;
+  }
+  .btncr:hover{
+    background-color: #699aca  ;
+  }
+  .btn2:hover{
+    background-color:  #07529d ;
+  
+  }
+  .home-link {
+    text-decoration: none; /* Removes underline */
+    color: inherit;
+    font-weight: normal; /* Ensures the color matches the parent */
+  }
+  
+  .home-link:hover {
+    color: #017c6e; /* Optional: Adds hover effect */
+  }
+
+ /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Navigation Bar */
+
+
+
+/* Main Content */
+.container {
+    padding: 30px;
+    margin-bottom: 2vh;
+    max-width: 1200px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 95%;
+    margin: 2vh;
+    margin-left: 3vh;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #eaf3ff;
+}
+
+table td {
+    color: #333333;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Delete Button */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.delete-button {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+
+  /* for the footerr*/
+.footer{
+    height: 30vh;
+    width: 100vw;
+    background: linear-gradient(to right, #48a0f7, #f0f0f0);
+    display: flex;
+  }
+  .logo2{
+    margin-left: 3vw;
+    height: 9vh;
+    margin-top: 1vh;   
+  }
+  .small_text{
+  font-size: 2vh;
+  color: black;
+  
+  }
+  .first-div{
+  margin-top: 2vh;
+  margin-left: 5vh;
+  }
+  .second_div{
+  margin-left: 19vh;
+  margin-top: 2vh;
+  }
+  .third_div{
+  margin-left: 19vh;
+  margin-top: 2vh;
+  }
+  .fourth_div{
+  margin-left: 22vh;
+  margin-top: 2vh;
+  }
+  .conimg{
+  display:flex;
+  }
+  .imgf{
+  width: 4vh;
+  height: 3vh;
+  margin: 1vh;
+  border-radius: 1vh;
+  }

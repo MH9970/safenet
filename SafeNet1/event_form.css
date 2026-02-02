@@ -1,0 +1,262 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#parent{
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+#bar{
+  height: 9vh;
+  width: 100vw;
+  display: flex;
+  background: linear-gradient(to right, #48a0f7, #f0f0f0);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo{
+  margin-left: 3vw;
+  height: 7vh;
+  margin-top: 1vh;
+  border-radius:20px;
+    
+}
+.message {
+  position: absolute;
+  top: 65.5%;
+  left: 40%; /* Adjust left percentage for alignment */
+  transform: translateY(-50%);
+  background-color: #ffeb3b;
+  color: #333;
+  padding: 20px 30px;
+  border: 1px solid #f9a825;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: bold;
+  width: fit-content; /* Automatically adjusts width to content */
+  text-align: left;
+}
+.btn{
+  margin-top: 2vh;
+  height: 5vh;
+  width: 9vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  color:  black;
+ background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 1vh;
+}
+.btnbac{
+  margin: 2vh;
+  margin-left: 45%;
+  height: 5vh;
+  width: 9vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  color:  black;
+ background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 1vh;    
+}
+
+.btn1{
+  
+    margin-top: 2vh;
+    height: 5vh;
+    width: 7vw;
+    margin-left: 5vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color: black;
+    background: transparent;
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    border-radius: 1vh;
+
+}
+.btn2{
+  margin: 2vh;
+  margin-left: 5vh;
+  height: 5vh;
+  width: 8vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  background: transparent;
+  border-color: white;
+  background: linear-gradient(to right, #f0f0f0, #48a0f7);
+  cursor: pointer;
+  color: black;
+  box-shadow: 1vh;
+}
+.btn:hover{
+  background-color: #699aca  ;
+}
+.btn1:hover{
+  background-color: #699aca  ;
+}
+.btn2:hover{
+  background-color:  #07529d ;
+
+}
+.home-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit;
+  font-weight: normal; /* Ensures the color matches the parent */
+}
+
+.home-link:hover {
+  color: #017c6e; /* Optional: Adds hover effect */
+}
+
+.instruct{
+  width: 70vw;
+  height: 45vh;
+  margin: 3.5vh;
+  margin-left: 30vh;
+  background-color:ivory;
+  text-align: center;
+  border-radius: 1vh;
+ 
+}
+.txt{
+  font-size: 3vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    width: 60vw;
+    border-radius: 2vh;
+    background-image: url("new-image/slid1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none ;
+    margin: 1vh;
+    margin-left: 20vw;
+  }
+  
+  .wrapper {
+    width: 25vw;
+     margin: 1vh;
+    background:rgb(16, 154, 186);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    color: white;
+    border-radius: 10px;
+    padding: 70px;
+    font-size: 2.5vh;
+  }
+  
+  .wrapper h1{
+    font-size: 40;
+    text-align: center;
+  
+  }
+  
+  .wrapper .input-box{
+    width: 100%;
+    margin: 35px 0;
+  
+  }
+  
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none; 
+    color: white;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 45px;
+    padding: 20px 20px 20px 10px;
+    font-size: 2vh;
+  }
+  
+  .input-box input::placeholder{
+    color:white;
+    font-weight: bold;
+  
+  }
+  
+  
+  
+  .wrapper .regbtn{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-size: 20px;
+    color: 330;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .title{
+       margin: 3vh;
+       margin-left: 40vw;
+       background-color: #017c6e;
+       width: 18vw;
+       height: 6vh;
+       color: white;
+       text-align: center;
+       border-radius: 1vh;
+  }
+  .regbtn{
+    background-color: rgb(7, 90, 125);
+  }
+  
+/* for the footer*/
+
+.footer{
+  height: 30vh;
+  width: 100vw;
+  background: linear-gradient(to right, #48a0f7, #f0f0f0);
+  display: flex;
+}
+.logo2{
+  margin-left: 3vw;
+  height: 9vh;
+  margin-top: 1vh;   
+}
+.small_text{
+font-size: 2vh;
+color: black;
+
+}
+.first-div{
+margin-top: 2vh;
+margin-left: 5vh;
+}
+.second_div{
+margin-left: 19vh;
+margin-top: 2vh;
+}
+.third_div{
+margin-left: 19vh;
+margin-top: 2vh;
+}
+.fourth_div{
+margin-left: 22vh;
+margin-top: 2vh;
+}
+.conimg{
+display:flex;
+}
+.imgf{
+width: 4vh;
+height: 3vh;
+margin: 1vh;
+border-radius: 1vh;
+}

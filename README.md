@@ -1,0 +1,2 @@
+# safenet
+Disaster management system 

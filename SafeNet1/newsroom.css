@@ -1,0 +1,217 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#parent{
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+#bar{
+  height: 9vh;
+  width: 100vw;
+  display: flex;
+  background: linear-gradient(to right, #48a0f7, #f0f0f0);
+}
+.logo{
+  margin-left: 3vw;
+  height: 7vh;
+  margin-top: 1vh;
+  border-radius:20px;
+    
+}
+.btn{
+  margin-top: 2vh;
+  height: 5vh;
+  width: 9vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  color:  black;
+ background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 1vh;
+
+    
+}
+.btn1{
+  
+    margin-top: 2vh;
+    height: 5vh;
+    width: 7vw;
+    margin-left: 5vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color: black;
+    background: transparent;
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    border-radius: 1vh;
+
+}
+.btn2{
+  margin: 2vh;
+  margin-left: 5vh;
+  height: 5vh;
+  width: 8vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  background: transparent;
+  border-color: white;
+  background: linear-gradient(to right, #f0f0f0, #48a0f7);
+  cursor: pointer;
+  color: black;
+  box-shadow: 1vh;
+}
+.btn:hover{
+  background-color: #699aca  ;
+}
+.btn1:hover{
+  background-color: #699aca  ;
+}
+.btn2:hover{
+  background-color:  #07529d ;
+
+}
+.home-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit;
+  font-weight: normal; /* Ensures the color matches the parent */
+}
+
+.home-link:hover {
+  color: #017c6e; /* Optional: Adds hover effect */
+}
+
+
+
+/* for the header*/
+.head{
+  width: 50vw ;
+  height: 5vh;
+  background-color: rgb(228, 225, 173);
+  font-weight: 3vh;
+  font-weight: bold;
+  margin: 2vh;
+  text-align: center;
+  border-radius: 1vh;
+  margin-left: 30vw;
+
+}
+.news{
+    width: 95vw;
+    height: 100vh;
+    margin: 2vh;
+    margin-left: 2.5vw;
+    background-color: rgb(163, 157, 157);
+}
+/* for the form*/
+
+form {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  margin: 5vh;
+  margin-left: 36vw;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #333333;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #555555;
+}
+
+form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+form button:active {
+  background-color: #004085;
+}
+
+form button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.txt{
+  text-align: center;
+  margin: 2vh;
+}
+
+ /* for the footerr*/
+ .footer{
+  height: 30vh;
+  width: 100vw;
+  background: linear-gradient(to right, #48a0f7, #f0f0f0);
+  display: flex;
+}
+.logo2{
+  margin-left: 3vw;
+  height: 9vh;
+  margin-top: 1vh;   
+}
+.small_text{
+font-size: 2vh;
+color: black;
+
+}
+.first-div{
+margin-top: 2vh;
+margin-left: 5vh;
+}
+.second_div{
+margin-left: 19vh;
+margin-top: 2vh;
+}
+.third_div{
+margin-left: 19vh;
+margin-top: 2vh;
+}
+.fourth_div{
+margin-left: 22vh;
+margin-top: 2vh;
+}
+.conimg{
+display:flex;
+}
+.imgf{
+width: 4vh;
+height: 3vh;
+margin: 1vh;
+border-radius: 1vh;
+}

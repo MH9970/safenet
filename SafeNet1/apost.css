@@ -1,0 +1,249 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#parent{
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+#bar{
+  height: 9vh;
+  width: 100vw;
+  display: flex;
+  background: linear-gradient(to right, #48a0f7, #f0f0f0);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo{
+  margin-left: 3vw;
+  height: 7vh;
+  margin-top: 1vh;
+  border-radius:20px;
+    
+}
+.btn{
+  margin-top: 2vh;
+  height: 5vh;
+  width: 9vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  color:  black;
+ background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 1vh;
+
+    
+}
+
+.btncr{
+  margin-top: 2vh;
+  height: 5vh;
+  width: 10vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  color:  black;
+ background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 1vh;
+
+    
+}
+.btn1{
+  
+    margin-top: 2vh;
+    height: 5vh;
+    width: 7vw;
+    margin-left: 5vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color: black;
+    background: transparent;
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    border-radius: 1vh;
+
+}
+.btn2{
+  margin: 2vh;
+  margin-left: 5vh;
+  height: 5vh;
+  width: 8vw;
+  font-weight: bold;
+  font-size: 2.2vh;
+  background: transparent;
+  border-color: white;
+  background: linear-gradient(to right, #f0f0f0, #48a0f7);
+  cursor: pointer;
+  color: black;
+  box-shadow: 1vh;
+}
+.btn:hover{
+  background-color: #699aca  ;
+}
+.btn1:hover{
+  background-color: #699aca  ;
+}
+.btncr:hover{
+  background-color: #699aca  ;
+}
+.btn2:hover{
+  background-color:  #07529d ;
+
+}
+.home-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit;
+  font-weight: normal; /* Ensures the color matches the parent */
+}
+
+.home-link:hover {
+  color: #017c6e; /* Optional: Adds hover effect */
+}
+
+
+/* ===== TOP BUTTONS & SEARCH ===== */
+.top-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 15px;
+    background: #f0f0f0;
+    border-radius: 15px;
+    margin: 10px 20px;
+}
+.top-buttons a {
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.posted-btn { background: #007bff; }
+.posted-btn:hover { background: #0056b3; }
+.see-post-btn { background: #28a745; }
+.see-post-btn:hover { background: #218838; }
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.search-container input {
+    width: 150px;
+    padding: 5px 8px;
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    outline: none;
+}
+.search-container input:focus { border-color: #0056b3; }
+.search-container button {
+    padding: 5px 12px;
+    background: #007bff;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.search-container button:hover { background: #0056b3; }
+
+/* ===== CARDS ===== */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.card img { width: 100%; height: auto; border-radius: 10px; }
+.card h3 { font-size: 1.5em; margin: 10px 0; }
+.card p { color: #777; font-size: 1em; }
+
+/* ===== CHANGE & DELETE BUTTONS ===== */
+.change-btn {
+    padding: 6px 16px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5px;
+    background: linear-gradient(45deg, #28a745, #218838);
+    color: white;
+    transition: 0.3s;
+}
+.change-btn:hover { background: linear-gradient(45deg, #218838, #1e7e34); }
+.cancel-btn { background: #6c757d; }
+.delete-button {
+    display: inline-block;
+    width: 7vw;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.delete-button:hover { background-color: darkred; }
+
+/* ===== EDIT CARD ===== */
+.card textarea {
+    width: 100%;
+    height: 100px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    resize: vertical;
+}
+.file-btn-wrapper {
+    text-align: center;
+    margin-top: 8px;
+}
+.file-btn {
+    display: inline-block;
+    background: #17a2b8;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+.file-btn:hover { background: #138496; }
+.file-btn input[type="file"] { display: none; }
+
+/* ===== FOOTER ===== */
+.footer{
+    height: 30vh;
+    width: 100vw;
+    background: linear-gradient(to right, #48a0f7, #f0f0f0);
+    display: flex;
+}
+.logo2{ margin-left: 3vw; height: 9vh; margin-top: 1vh; }
+.small_text{ font-size: 2vh; color: black; }
+.first-div{ margin-top: 2vh; margin-left: 5vh; }
+.second_div{ margin-left: 19vh; margin-top: 2vh; }
+.third_div{ margin-left: 19vh; margin-top: 2vh; }
+.fourth_div{ margin-left: 22vh; margin-top: 2vh; }
+.conimg{ display:flex; }
+.imgf{ width: 4vh; height: 3vh; margin: 1vh; border-radius: 1vh; }

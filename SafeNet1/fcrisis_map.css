@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  #parent{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+  }
+  #bar{
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    background: linear-gradient(to right, #48a0f7, #f0f0f0);
+  }
+  .logo{
+    margin-left: 10vw;
+    height: 7vh;
+    margin-top: 1vh;
+      
+  }
+  .btn{
+    margin-top: 2vh;
+    height: 5vh;
+    width: 9vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color:  black;
+   background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 1vh;
+  
+      
+  }
+  /* for the go back button of post snd news html page*/
+  .btnpost{
+    margin-top: 2vh;
+    height: 5vh;
+    width: 14vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color:  white;
+   background-color: #017c6e;
+    border: none;
+    cursor: pointer;
+    border-radius: 1vh;
+  }
+  .btn1{
+    
+      margin-top: 2vh;
+      height: 5vh;
+      width: 7vw;
+      margin-left: 15vw;
+      font-weight: bold;
+      font-size: 2.2vh;
+      color: black;
+      background: transparent;
+      border: none;
+      background:transparent;
+      cursor: pointer;
+      border-radius: 1vh;
+  
+  }
+  .btn2{
+    margin: 2vh;
+    margin-left: 5vh;
+    height: 5vh;
+    width: 8vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    background: transparent;
+    border-color: white;
+    background: linear-gradient(to right, #f0f0f0, #48a0f7);
+    cursor: pointer;
+    color: black;
+    box-shadow: 1vh;
+  }
+  .btn:hover{
+    background-color: #699aca  ;
+  }
+  .btn1:hover{
+    background-color: #699aca  ;
+  }
+  .btn2:hover{
+    background-color:  #07529d ;
+  
+  }
+  .home-link {
+    text-decoration: none; /* Removes underline */
+    color: inherit;
+    font-weight: normal; /* Ensures the color matches the parent */
+  }
+  
+  .home-link:hover {
+    color: #017c6e; /* Optional: Adds hover effect */
+  }
+  /* for the header*/
+  .head{
+    width: 50vw ;
+    height: 5vh;
+    font-weight: 3vh;
+    font-weight: bold;
+    margin: 2vh;
+    text-align: center;
+    border-radius: 1vh;
+    margin-left: 30vw;
+  
+  }
+  .txt{
+  
+      width: 25vw;
+      height: 7vh;
+      margin: 3vh;
+      margin-left: 4vw;
+      border-radius: 2vh;
+      margin-top: 7vh;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  #barchart_material{
+    width: 900px; 
+    height: 500px;
+    margin: 2vh;
+    margin-left: 20vw;
+  }
+  .container{
+    width: 35vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    border: 0.5vh solid black;
+    margin: 6vh;
+    margin-left: 33vw;
+  }
+  .input-box {
+    margin: 2vh;
+  }
+  .input{
+       width: 20vw;
+       height: 5vh;
+  }
+  
+  .input-box1 select {
+    width: 20vw;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    margin: 1vh;
+  }
+  
+  .input-box1 select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .input-box1 select option[disabled] {
+    color: #888;
+  }
+  .regbtn{
+    background-color: rgb(96, 96, 238);
+    width: 10vw;
+    height: 5vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    margin: 2vh;
+    margin-left: 5vw;
+  
+  }
+  .message{
+    text-align: center;
+    font-size: 4vh;
+    margin: 2vh;
+    margin-top: 25vh;
+    height: 55vh;
+  
+  }
+  .btnb{
+    text-align: center;
+    margin: 5vh;
+    margin-left: 45vw;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 1.5vh;
+    background-color: #5b9fe8;
+  }
+   /* for the footerr*/
+   .footer{
+    height: 30vh;
+    width: 100vw;
+    background: linear-gradient(to right, #48a0f7, #f0f0f0);
+    display: flex;
+  }
+  .logo2{
+    margin-left: 3vw;
+    height: 9vh;
+    margin-top: 1vh;   
+  }
+  .small_text{
+  font-size: 2vh;
+  color: black;
+  
+  }
+  .first-div{
+  margin-top: 2vh;
+  margin-left: 5vh;
+  }
+  .second_div{
+  margin-left: 19vh;
+  margin-top: 2vh;
+  }
+  .third_div{
+  margin-left: 19vh;
+  margin-top: 2vh;
+  }
+  .fourth_div{
+  margin-left: 22vh;
+  margin-top: 2vh;
+  }
+  .conimg{
+  display:flex;
+  }
+  .imgf{
+  width: 4vh;
+  height: 3vh;
+  margin: 1vh;
+  border-radius: 1vh;
+  }
+  
